@@ -23,7 +23,7 @@ const String(elementPath) = FIREBASE_ELEMENT;                           // Sub p
 int status = WL_IDLE_STATUS;
 WiFiSSLClient client;
 
-String elementValue = "";                                               // Initialize the value of the variable used to update the data element
+String elementValue = "";                                               // Initialize the variable used to update the data element
 
 int sensorPin = A0;
 int tempCalibration = -4;                                               // temperature calibration value 
@@ -77,8 +77,6 @@ void httpRequest() {
     client.println();
     client.print(elementValue);
 
-    // note the time that the connection was made:
-    // lastConnectionTime = millis();
   } else {
     // if you couldn't make a connection:
     //Serial.println("Connection to Firebase server failed");
