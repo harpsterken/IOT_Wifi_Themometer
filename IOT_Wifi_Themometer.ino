@@ -1,6 +1,6 @@
-// Notes:
-//  Certificate must be added to WiFi module in order to connect to Firebase!
-//  ie: myproject-12345.firebaseio.com:443
+//  A certificate for firebase must be added to the WiFi module in order to connect to Firebase!
+//  www.firebaseio.com
+//  For instructions, currently refer to https://www.arduino.cc/en/Tutorial/FirmwareUpdater
 //
 // TMP36 Pin Variables
 //  The analog pin the TMP36's Vout (sense) pin is connected to
